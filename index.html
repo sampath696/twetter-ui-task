@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="parent">
+      <nav class="nav" id="myTopnav">
+        <ul>
+          <li>Home</li>
+          <li>Moments</li>
+          <li>Notifications</li>
+          <li class="msg">Messages</li>
+          <li class="logo">
+            <i class="fa fa-twitter"></i>
+          </li>
+          <li class="btn"><button class="tweet-btn">Tweet</button></li>
+          <!-- <li>
+            <i class="fa fa-bars" id="icon"></i>
+          </li> -->
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="container-items item1">
+          <h1 class="userhead">Ratatouille</h1>
+          <img class="img" src="user2.png" alt="usericon" />
+          <div align="left">
+            <p class="usersubname">Remy</p>
+            <p class="brwnsm">@remy</p>
+          </div>
+          <div class="dash">
+            <span>Tweets</span>
+            <span>Following</span>
+            <span>Follower</span>
+          </div>
+          <div class="dashinfo">
+            <span>5049</span>
+            <span>324</span>
+            <span>809</span>
+          </div>
+        </div>
+        <div class="container-items item2">
+          <img
+            class="comment-img"
+            src="user2.png"
+            alt="usericon"
+            align="left"
+          />
+          <p>
+            <span><b>Remy</b></span> <span class="brwn">@remy Nov 19</span>
+          </p>
+          <p>
+            i'm taking this class called CS1320 and the TAs are all so cool!
+          </p>
+          <hr />
+          <img
+            class="comment-img"
+            src="user2.png"
+            alt="usericon"
+            align="left"
+          />
+          <div>
+            <p>
+              <span><b>Remy</b></span> <span class="brwn">@remy Nov 19</span>
+            </p>
+            <p align="left">
+              it's 2007. you just got home from elementary school. Your mom has
+              pizza bagels in the oven. Ratatouille is in theaters. life is good
+            </p>
+          </div>
+          <hr />
+          <img
+            class="comment-img"
+            src="user2.png"
+            alt="usericon"
+            align="left"
+          />
+          <p>
+            <span><b>Remy</b></span> <span class="brwn">@remy Nov 19</span>
+          </p>
+          <p>let's make some pasta!</p>
+          <hr />
+          <img
+            class="comment-img"
+            src="user2.png"
+            alt="usericon"
+            align="left"
+          />
+          <p>
+            <span><b>Remy</b></span> <span class="brwn">@remy Nov 19</span>
+          </p>
+          <p>let's make some pasta!</p>
+        </div>
+        <div class="container-items item3">
+          <h3>Who to follow</h3>
+          <img
+            class="follow-img"
+            src="follow1.png"
+            alt="usericon"
+            align="left"
+          />
+          <p>
+            <span><b>Lunguini</b></span> <span class="brwn">@lunguini</span>
+          </p>
+          <button class="follow-btn">Follow</button>
+          <hr />
+          <img
+            class="follow-img"
+            src="follow2.png"
+            alt="usericon"
+            align="left"
+          />
+          <p>
+            <span><b>CS1320TA</b></span> <span class="brwn">@CS1320TA</span>
+          </p>
+          <button class="follow-btn">Follow</button>
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+    </script>
+  </body>
+</html>
